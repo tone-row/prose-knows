@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&&family=Pathway+Extreme:wght@700&display=swap");
+
+:root {
+  --font-sans: PP Neue Montreal TT, Open Sans;
+  --font-display: Pathway Extreme;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply antialiased;
+}
+
+body {
+  @apply bg-white text-foreground;
+}
+
+@layer components {
+  *,
+  ::before,
+  ::after {
+    --tw-ring-color: theme("colors.foreground/0.25");
+    @apply border-neutral-200;
+  }
+}
+
+.main-editor {
+  @apply bg-white p-4;
+}
