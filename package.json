@@ -35,6 +35,7 @@
     "@radix-ui/react-toggle-group": "latest",
     "@radix-ui/react-tooltip": "latest",
     "@tiptap/extension-link": "^2.2.4",
+    "@tiptap/extension-text-style": "^2.2.4",
     "@tiptap/pm": "^2.2.4",
     "@tiptap/react": "^2.2.4",
     "@tiptap/starter-kit": "^2.2.4",
