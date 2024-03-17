@@ -5,7 +5,7 @@ import { TipTap } from "./components/TipTap";
 export default function App() {
   return (
     <TooltipProvider>
-      <div className="h-[100dvh] grid justify-center p-5">
+      <div className="grid justify-center p-5">
         <TipTap />
       </div>
       <Toaster />

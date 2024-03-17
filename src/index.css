@@ -29,3 +29,8 @@ body {
 .main-editor {
   @apply bg-white p-4;
 }
+
+mark {
+  background-color: transparent;
+  color: inherit;
+}

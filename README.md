@@ -3,6 +3,7 @@
 - ~~keep it stored in a readable, markdown-ish format. files over app~~
 - ~~be able to toggle anything~~
 - ~~a place where toggle things appear or something~~
+- my theory is that tiptap/prosemirror is wiping the unknown element from the dom and erasing the annotation immediately after it's created. basically everytime you move the cursor or anythign we're generating new annotations and wiping the old ones.
 - use markdown annotations to link to "canvases of content"
 - there is a canvas around the document
 - user can create notes

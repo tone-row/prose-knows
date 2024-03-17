@@ -1,4 +1,4 @@
-import { LuBold, LuItalic } from "react-icons/lu";
+import { LuBold, LuHighlighter, LuItalic } from "react-icons/lu";
 import { Toggle } from "../ui/toggle";
 import { Editor, useCurrentEditor } from "@tiptap/react";
 import {
@@ -57,6 +57,12 @@ export function Menubar() {
         onClick={() => editor.chain().focus().toggleItalic().run()}
       >
         <LuItalic />
+      </Toggle>
+      <Toggle
+        pressed={editor.isActive("highlight") ? true : false}
+        onClick={() => editor.chain().focus().toggleHighlight().run()}
+      >
+        <LuHighlighter />
       </Toggle>
     </div>
   );
